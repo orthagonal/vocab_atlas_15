@@ -1,0 +1,122 @@
+[
+  {
+    "name": "GPT-2",
+    "repo": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "model_type": "BPE (inferred)",
+    "encoding": "bytelevel",
+    "tokenizer_json_url": "https://huggingface.co/openai-community/gpt2/blob/607a30d783dfa663caf39e06633721c8d4cfcd7e/tokenizer.json"
+  },
+  {
+    "name": "BERT uncased",
+    "repo": "google-bert/bert-base-uncased",
+    "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+    "model_type": "WordPiece (inferred)",
+    "encoding": "literal",
+    "tokenizer_json_url": "https://huggingface.co/google-bert/bert-base-uncased/blob/86b5e0934494bd15c9632b12f734a8a67f723594/tokenizer.json"
+  },
+  {
+    "name": "RoBERTa",
+    "repo": "FacebookAI/roberta-base",
+    "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "model_type": "BPE (inferred)",
+    "encoding": "bytelevel",
+    "tokenizer_json_url": "https://huggingface.co/FacebookAI/roberta-base/blob/e2da8e2f811d1448a5b465c236feacd80ffbac7b/tokenizer.json"
+  },
+  {
+    "name": "T5",
+    "repo": "google-t5/t5-small",
+    "revision": "df1b051c49625cf57a3d0d8d3863ed4d13564fe4",
+    "model_type": "Unigram (inferred)",
+    "encoding": "metaspace",
+    "tokenizer_json_url": "https://huggingface.co/google-t5/t5-small/blob/df1b051c49625cf57a3d0d8d3863ed4d13564fe4/tokenizer.json"
+  },
+  {
+    "name": "mT5",
+    "repo": "Xenova/mt5-small",
+    "revision": "608f7db0c5c860e1b0c40759cc390b023b0cda8f",
+    "model_type": "Unigram",
+    "encoding": "metaspace",
+    "tokenizer_json_url": "https://huggingface.co/Xenova/mt5-small/blob/608f7db0c5c860e1b0c40759cc390b023b0cda8f/tokenizer.json"
+  },
+  {
+    "name": "XLM-R",
+    "repo": "FacebookAI/xlm-roberta-base",
+    "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "model_type": "Unigram (inferred)",
+    "encoding": "metaspace",
+    "tokenizer_json_url": "https://huggingface.co/FacebookAI/xlm-roberta-base/blob/e73636d4f797dec63c3081bb6ed5c7b0bb3f2089/tokenizer.json"
+  },
+  {
+    "name": "BLOOM",
+    "repo": "bigscience/bloom-560m",
+    "revision": "ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971",
+    "model_type": "BPE",
+    "encoding": "bytelevel",
+    "tokenizer_json_url": "https://huggingface.co/bigscience/bloom-560m/blob/ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971/tokenizer.json"
+  },
+  {
+    "name": "GPT-NeoX",
+    "repo": "EleutherAI/gpt-neox-20b",
+    "revision": "c292233c833e336628618a88a648727eb3dff0a7",
+    "model_type": "BPE",
+    "encoding": "bytelevel",
+    "tokenizer_json_url": "https://huggingface.co/EleutherAI/gpt-neox-20b/blob/c292233c833e336628618a88a648727eb3dff0a7/tokenizer.json"
+  },
+  {
+    "name": "Llama 2 family",
+    "repo": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+    "model_type": "BPE",
+    "encoding": "literal",
+    "tokenizer_json_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/blob/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer.json"
+  },
+  {
+    "name": "Mistral 7B",
+    "repo": "mistralai/Mistral-7B-v0.1",
+    "revision": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+    "model_type": "BPE",
+    "encoding": "metaspace",
+    "tokenizer_json_url": "https://huggingface.co/mistralai/Mistral-7B-v0.1/blob/27d67f1b5f57dc0953326b2601d68371d40ea8da/tokenizer.json"
+  },
+  {
+    "name": "Llama 3",
+    "repo": "NousResearch/Meta-Llama-3-8B",
+    "revision": "315b20096dc791d381d514deb5f8bd9c8d6d3061",
+    "model_type": "BPE",
+    "encoding": "bytelevel",
+    "tokenizer_json_url": "https://huggingface.co/NousResearch/Meta-Llama-3-8B/blob/315b20096dc791d381d514deb5f8bd9c8d6d3061/tokenizer.json"
+  },
+  {
+    "name": "Qwen 2.5",
+    "repo": "Qwen/Qwen2.5-0.5B",
+    "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "model_type": "BPE",
+    "encoding": "bytelevel",
+    "tokenizer_json_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B/blob/060db6499f32faf8b98477b0a26969ef7d8b9987/tokenizer.json"
+  },
+  {
+    "name": "Qwen 3",
+    "repo": "Qwen/Qwen3-0.6B",
+    "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+    "model_type": "BPE",
+    "encoding": "bytelevel",
+    "tokenizer_json_url": "https://huggingface.co/Qwen/Qwen3-0.6B/blob/c1899de289a04d12100db370d81485cdf75e47ca/tokenizer.json"
+  },
+  {
+    "name": "Gemma 2",
+    "repo": "unsloth/gemma-2-2b",
+    "revision": "25319945f7fd83b8b903e12081777b7eef2ba993",
+    "model_type": "BPE",
+    "encoding": "literal",
+    "tokenizer_json_url": "https://huggingface.co/unsloth/gemma-2-2b/blob/25319945f7fd83b8b903e12081777b7eef2ba993/tokenizer.json"
+  },
+  {
+    "name": "Falcon 7B",
+    "repo": "tiiuae/falcon-7b",
+    "revision": "ec89142b67d748a1865ea4451372db8313ada0d8",
+    "model_type": "BPE",
+    "encoding": "bytelevel",
+    "tokenizer_json_url": "https://huggingface.co/tiiuae/falcon-7b/blob/ec89142b67d748a1865ea4451372db8313ada0d8/tokenizer.json"
+  }
+]

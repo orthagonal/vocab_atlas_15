@@ -1,0 +1,53 @@
+{
+  "generated_utc": "2026-11-23T05:27:10.968988+00:00",
+  "model_count": 15,
+  "raw_token_union": 867110,
+  "normalized_byte_surface_union": 796695,
+  "total_raw_token_occurrences": 1780381,
+  "raw_tokens_found_in_exactly_one_vocabulary": 519745,
+  "raw_tokens_found_in_every_vocabulary": 998,
+  "raw_token_prevalence_histogram": {
+    "1": 519745,
+    "2": 141249,
+    "3": 101568,
+    "4": 30574,
+    "5": 17061,
+    "6": 14279,
+    "7": 8924,
+    "8": 20428,
+    "9": 2236,
+    "10": 2317,
+    "11": 2158,
+    "12": 1961,
+    "13": 1835,
+    "14": 1777,
+    "15": 998
+  },
+  "unique_raw_vocabulary_sets": 15,
+  "unique_token_to_id_mappings": 15,
+  "unique_normalized_byte_surface_sets": 15,
+  "model_repos_and_revisions": {
+    "openai-community/gpt2": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "google-bert/bert-base-uncased": "86b5e0934494bd15c9632b12f734a8a67f723594",
+    "FacebookAI/roberta-base": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "google-t5/t5-small": "df1b051c49625cf57a3d0d8d3863ed4d13564fe4",
+    "Xenova/mt5-small": "608f7db0c5c860e1b0c40759cc390b023b0cda8f",
+    "FacebookAI/xlm-roberta-base": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "bigscience/bloom-560m": "ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971",
+    "EleutherAI/gpt-neox-20b": "c292233c833e336628618a88a648727eb3dff0a7",
+    "TinyLlama/TinyLlama-1.1B-Chat-v1.0": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+    "mistralai/Mistral-7B-v0.1": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+    "NousResearch/Meta-Llama-3-8B": "315b20096dc791d381d514deb5f8bd9c8d6d3061",
+    "Qwen/Qwen2.5-0.5B": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "Qwen/Qwen3-0.6B": "c1899de289a04d12100db370d81485cdf75e47ca",
+    "unsloth/gemma-2-2b": "25319945f7fd83b8b903e12081777b7eef2ba993",
+    "tiiuae/falcon-7b": "ec89142b67d748a1865ea4451372db8313ada0d8"
+  },
+  "notes": [
+    "Raw token equality compares exact strings in tokenizer.json, excluding entries explicitly flagged special.",
+    "Byte-surface equality strips ByteLevel/Metaspace/WordPiece display conventions; it is heuristic across tokenizer families.",
+    "A byte surface can occur in multiple tokens within one tokenizer; these are counted once per vocabulary.",
+    "Tokenizer normalization and contextual encoding behavior are not comparable by vocabulary alone.",
+    "Novelty counts depend on the chosen order and cannot be interpreted as historical ancestry."
+  ]
+}
